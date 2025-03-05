@@ -66,7 +66,7 @@ export default function AuthForm() {
                         </label>
                     )}
                     {error && <p className="error-message">{error}</p>} {/* Error message display */}
-                    <button type="submit">Sign in</button>
+                    <button className="submit-btn" type="submit">Sign in</button>
                 </form>
             </div>
         </div>

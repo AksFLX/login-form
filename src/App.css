@@ -1,3 +1,7 @@
+:root{
+  background-color: black;
+  height: 100vh;
+}
 .App {
   text-align: center;
 }
@@ -49,10 +53,15 @@
 .username, .password, .confirm-password{
   display: flex;
   flex-direction: column-reverse;
+  color: white;
 }
 .container {
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.submit-btn:hover{
+background-color: skyblue;
+color: white;
 }
