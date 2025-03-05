@@ -1,6 +1,7 @@
 :root{
   background-color: black;
   height: 100vh;
+  font-family: Poppins;
 }
 .App {
   text-align: center;
@@ -40,15 +41,24 @@
     transform: rotate(360deg);
   }
 }
+.form-toggle{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 .form-toggle .active{
   background-color: blue;
   color:white;
 }
 .login-form{
+  background-color: #3A3A3A;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 20px;
 }
 .username, .password, .confirm-password{
   display: flex;
