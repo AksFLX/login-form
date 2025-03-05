@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.form-toggle .active{
+  background-color: blue;
+  color:white;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.username, .password, .confirm-password{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
