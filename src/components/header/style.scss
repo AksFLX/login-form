@@ -1,0 +1,25 @@
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+.logInBtn, .requestDemoBtn{
+    padding: 9px 11px 9px 11px;
+    background-color: transparent;
+    border: 1px solid #0A211F;
+    border-radius: 8px;
+    color: #0A211F;
+    font-size: 14px;
+    line-height: 16px;
+    width: 60px;
+    height: 40px;
+}
